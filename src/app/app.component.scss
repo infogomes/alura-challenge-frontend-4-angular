@@ -1,0 +1,11 @@
+@import '../../src/styles.scss';
+
+.bg-blue {
+  background-color: $primary-color;
+}
+
+.bg-image-top {
+  background-image: url('../assets/img/img-top.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
