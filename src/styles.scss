@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+$primary-color: #3772ff;
+$secundary-color: #36d6ad;
+$tertiary-color: #fc7071;
+$dark-grey: #737380;
+$medium-grey: #bcbcbc;
+$light-grey: #f6f6f6;
+$font-family: "Poppins", sans-serif;
+$text-color-blue: #3772ff;
+$button-color-hover: #ff9d9e;
+$breakpoint-tablet: 576px;
+
+* {
+  font-family: $font-family;
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+  :root {
+    font-size: 18px;
+  }
+}
